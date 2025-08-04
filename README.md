@@ -1,19 +1,12 @@
 # Blinker Clone App
 
-This is a React clone of a car subscription UI that fetches data using the OMDb API.
+This is a javascript movie search app with UI that fetches data using the OMDb API.
 
 ## Features
-- Search for vehicles by title
-- View search results in a card layout
-- Click a card to view details
-- Simple routing with React Router
-
-## Setup
-
-```bash
-npm install
-npm start
-```
+- Search for movies by title
+- See the results displayed
+- Be able to sort/filter results by year (newest to oldest or oldest to newest)
+- Graceful error handling if no results are found
 
 ## API Key Used
 - OMDb API Key: 4c28a0ae
