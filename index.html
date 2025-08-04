@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blinker Clone</title>
+  <meta charset="UTF-8">
+  <title>OMDb Movie Search</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="root"></div>
+  <h1>🎬 OMDb Movie Search</h1>
+
+  <input type="text" id="searchInput" placeholder="Search for a movie..." />
+  <button id="searchBtn">Search</button>
+
+  <select id="sortOptions">
+    <option value="default">Sort by Year</option>
+    <option value="asc">Oldest to Newest</option>
+    <option value="desc">Newest to Oldest</option>
+  </select>
+
+  <div id="results"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
